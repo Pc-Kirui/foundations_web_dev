@@ -3,7 +3,7 @@ Odin Path to development!
 
 Hello Patrick!
 
-**Working with text**
+__Working with text__
 
 Most content on the web is text-based. Working with text entails creating paragraphs, headings, bold text, italicized text, relationship between nested elements and html comments.
 
@@ -49,4 +49,4 @@ _HTML Comments_
 
 HTML comments are not visible to the browser; they allow us to comment on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
 
-Writing an HTML comment is simple: We just enclose the comment with ```<!-- and --> ```tags. For example:
+Writing an HTML comment is simple: We just enclose the comment with ```<!-- and --> ```tags.
