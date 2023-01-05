@@ -50,3 +50,7 @@ _HTML Comments_
 HTML comments are not visible to the browser; they allow us to comment on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
 
 Writing an HTML comment is simple: We just enclose the comment with ```<!-- and --> ```tags.
+
+**Links and Images**
+
+Links point the user to a different HTML document, and images pull another resource into the page.
