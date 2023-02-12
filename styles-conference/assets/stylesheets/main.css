@@ -17,7 +17,7 @@ Custom styles
 */
 body {
     color: #888;
-    font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1,h2,h3,h4{
     color: #648880;
@@ -40,6 +40,7 @@ h5 {
     color: #a9b2b9;
     font-size: 14px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 strong{
     font-weight: 400;
@@ -55,6 +56,10 @@ a:hover{
 }
 a{
     color: #648880;
+    text-decoration: none;
+}
+p,a{
+    border-bottom: 1px solid #dfe2e5;
 }
 /* HTML5 display-role reset for older browsers */
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section 
@@ -136,12 +141,14 @@ Home
 .hero {
     padding: 22px 80px 66px 80px;
     line-height: 44px;
+    text-align: center;
 }
 .hero h2{
     font-size: 36px;
 }
 .hero p{
     font-size: 24px;
+    font-weight: 100;
 }
 .teaser a:hover h3{
     color: #a9b2b9;
@@ -171,13 +178,19 @@ Primary header
     float: left;
     font-size: 48px;
     line-height: 44px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: .5px;
 }
 .tagline{
     margin: 66px 0 22px 0;
+    text-align: right;
 }
 .primary-nav{
     font-size: 14px;
     font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
 }
 /*
 Primary footer
@@ -208,4 +221,10 @@ Primary footer
 .col-2-3 {
     padding-left: 15px;
     padding-right: 15px;
+}
+/*
+Navigation
+*/
+.nav{
+    text-align: right;
 }
