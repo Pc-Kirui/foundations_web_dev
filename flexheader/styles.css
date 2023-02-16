@@ -1,0 +1,61 @@
+body{
+    font-family: monospace;
+    margin: 0;
+    background: #eee;
+}
+.parent{
+    background-color: white;
+    display: flex;
+}
+.container{
+    color: darkmagenta;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 8px;
+}
+.left-links{
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+.right-links{
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+.notification{
+    text-decoration: none;
+    color: white;
+    background-color: darkmagenta;
+    border-radius: 8px;
+    padding: 8px 24px;
+    border: none;
+}
+.logo{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 48px;
+}
+.links{
+    color: darkmagenta;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: darkmagenta;
+    text-decoration: none;
+}
+.profile{
+    height: 48px;
+    width: 48px;
+    background-color: darkmagenta;
+    border-radius: 50%;
+}
