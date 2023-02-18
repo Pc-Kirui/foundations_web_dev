@@ -1,0 +1,68 @@
+html, body{
+    background-color: #aaa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    color: #333;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.modal{
+    background: white;
+    width: 480px;
+    border-radius: 10px;
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+button{
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+button.continue{
+    background: blue;
+    color: white;
+    border: 1px solid royalblue;
+    border-radius: 4px;
+}
+button.cancel{
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+.icon{
+    color: royalblue;
+    font-size: 26px;
+    font-weight: 700;
+    background: lavender;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.close-button{
+    background: #eee;
+    height: 24px;
+    width: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+    border-radius: 50%;
+}
+.heading{
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    margin-bottom: 16px;
+}
