@@ -164,6 +164,12 @@ Home
 .teaser a:hover h3{
     color: #a9b2b9;
 }
+.teaser img{
+    display: block;
+    border-radius: 5px;
+    max-width: 100%;
+    margin-bottom: 22px;
+}
 /*
 
 Clearfix
@@ -290,6 +296,12 @@ Speakers
     margin-top: 88px;
     padding: 22px 0;
     text-align: center;
+}
+.speaker-info img{
+    border-radius: 50%;
+    height: 130px;
+    vertical-align: top;
+    margin: -66px 0 22px 0;
 }
 .speaker{
     margin-bottom: 44px;
